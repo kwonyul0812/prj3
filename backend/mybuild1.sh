@@ -25,3 +25,5 @@ ssh -i src/main/resources/secret/key0527.pem ubuntu@43.201.114.72 'docker rm sae
 ssh -i src/main/resources/secret/key0527.pem ubuntu@43.201.114.72 'docker pull kwonyul99/prj3'
 # 컨테이너 실행
 ssh -i src/main/resources/secret/key0527.pem ubuntu@43.201.114.72 'docker run -d -p 8080:8080 --restart always --name saengjoncoding kwonyul99/prj3'
+
+# 코드 수정후 터미널에서 ./mybuild1.sh 실행하여 반영할것.
